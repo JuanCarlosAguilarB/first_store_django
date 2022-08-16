@@ -15,5 +15,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ProyectoWeb.settings')
 
 application = get_wsgi_application()
 
+from dj_static import Cling
+application = Cling(application)
 # from whitenoise.django import DjangoWhiteNoise  
 # application = DjangoWhiteNoise(application)
