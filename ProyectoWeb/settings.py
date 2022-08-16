@@ -27,7 +27,7 @@ SECRET_KEY = '_53v6ylo8$+&ub*0%(1at3)@&ofd(sloi-i!y1sc%gj(ht0oaj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['quiet-atoll-80577.herokuapp.com']
 
 
 # Application definition
