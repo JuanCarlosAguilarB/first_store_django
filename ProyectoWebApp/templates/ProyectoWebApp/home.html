@@ -1,0 +1,50 @@
+{% extends "ProyectoWebApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+
+<section class="hero-banner bg-light py-5">
+  <div class="container">
+      <div class="row row align-items-center">
+          <div class="col-lg-5 offset-lg-1 order-lg-1">
+            <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectoWebApp/img/principal.jpg' %}" alt="">
+          </div>
+          <div class="col-lg-6">
+              <h1 class="mt-3"> Garantizado <br> Compromiso total  </h1>
+              <p class="lead text-secondary my-5">Con más de 75 años de experiencia a nuestras espaldas, desde Gestión de Pedidos tenemos los conocimientos y herramientas necesarios para llevar cualquier objeto a la puerta de su casa con puntualidad y profesionalidad.</p>
+              <a href="{% url 'Servicios' %}" class="btn btn-outline-secondary btn-lg border"> Ordenar ahora</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class="intro-text left-0 text-center bg-faded p-5 rounded">
+  <h2 class="section-heading mb-4" >
+    <span class="section-heading-upper">Puntualidad</span>
+    <span class="section-heading-lower">El mejor stock</span>
+  </h2>
+  <p class="mb-3">En la puertra de tu casa en menos de 48 h con el envío normal. En menos de 24 h con el envío express.
+  </p>
+ 
+</div>
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        
+
+      </div>
+    </div>
+  </section>
+
+
+  
+
+
+    {% endblock %}
+
+
+    
